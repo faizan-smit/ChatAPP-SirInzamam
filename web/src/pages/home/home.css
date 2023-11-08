@@ -1,0 +1,81 @@
+.postForm {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 240px;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.right button{
+    margin-top: 5px;
+}
+
+.postForm input{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+}
+
+.postForm textarea{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+}
+
+.postForm button{
+    border: 1px solid white;
+    /* background-color: rgba(0, 0, 0, 0); */
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.postForm .section1 {
+    display: flex;
+}
+
+.allposts{
+    background-color: white;
+    width: 450px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.allposts button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid darkorchid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 5px;
+    color: darkorchid;
+    cursor: pointer;
+}
+
+.allposts h2{
+    background-color: darkorchid;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    text-transform: capitalize;
+}
